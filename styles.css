@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+h2{
+    font-family: 'Baloo 2', cursive;
+}
 header{
         background-color: #00007D;
         height: 80px;
@@ -12,12 +14,12 @@ header{
 .imglogo{
     margin: 20px;
 }
-
+/* 
 .registros{
-    display: flex;
-    justify-content: flex-start;
-    width: 10%;
-    font-family: 'Roboto Mono', monospace;
+    /* display: flex;
+    justify-content: flex-start; */
+    /* width: 10%; */
+/* 
 }
 
 
@@ -25,23 +27,51 @@ header{
 .containerMenu{
     width: 10%;
 
+} */
+
+.container{ */
+    width: 90%;
 }
 
 .principal{
     display: flex;
     justify-content: center; 
+    margin: 15px;
     
 }
 
-.ContainerPrincipal{
+.tituloPricinpal{
+    margin-right: 15px;
+    color: #8BBBF3;
+}
+button{
+    height: 30px;
+    width: 13%;
+    background-color: #8BBBF3;
+    border: none;
+    margin: 10px;
+    margin-left: 30px ; 
+    border: none;
+}
+
+.elementos{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 25px;
 }
-.registrobutton{
-    height: 40px;
-    width: 13%;
-    background-color: blue;
-    border: none;
-    color: white;
+
+input{
+    height: 30px;
+}
+.in{
+    margin-right: 20px;
+}
+
+.datas{
+    background-color: #D9D9D9;
+}
+.exportar{
+    background-color: #D9D9D9;
 }
