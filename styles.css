@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'PT Sans', sans-serif;
 } 
 h2{
     font-family: 'Baloo 2', cursive;
@@ -29,6 +30,7 @@ li {
   .p1{
     margin-top: 20px;
     margin: 15px;
+    font-family: 'PT Sans', sans-serif;
   }
   .datas{
     padding: 20px;
@@ -110,7 +112,6 @@ li {
 }
  button{
     height: 30px;
-    
     background-color: #8BBBF3;
     border: none;
  
