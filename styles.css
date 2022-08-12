@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif !important;
 } 
 h2{
     font-family: 'Baloo 2', cursive;
@@ -16,6 +16,7 @@ header{
     margin: 20px;
 }
 
+
 li {
     list-style-type: none;
   }
@@ -24,12 +25,14 @@ li {
     width: 150px;
     height: 40px;
     margin-top: 10px;
+    color: white;
   }
 
 
   .p1{
-    margin-top: 20px;
-    margin: 15px;
+    margin-top: 25px;
+    margin-right: 20px;
+    /* margin: 15px; */
     font-family: 'PT Sans', sans-serif;
   }
   .datas{
@@ -48,20 +51,22 @@ li {
     justify-content: center;
     margin-right: 30px;
     margin-left: 30px;
+    background-color: #0F6DDB;
+    color: white;
     
 
   }
 
-
   .p2{
     width: 50%;
-    background-color: #70E2AC;
+    background-color: #B7FFDC;
     padding: 8px;
     margin-right: 30px;
     margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #14B065;
   }
 
   .registrobutton:hover{
@@ -117,10 +122,16 @@ li {
  
 } 
 
+.in{
+    margin-left: 15px;
+}
 
 
 input{
-    height: 30px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    text-align: center;
 }
 .in{
     margin-right: 20px;
@@ -128,4 +139,5 @@ input{
 
 .datas{
     background-color: #D9D9D9;
+    width: 150px;
 }
