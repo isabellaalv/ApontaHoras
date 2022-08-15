@@ -17,6 +17,10 @@ header{
 }
 
 
+.registro{
+    font-family: 'Rubik', sans-serif !important;
+}
+
 li {
     list-style-type: none;
   }
