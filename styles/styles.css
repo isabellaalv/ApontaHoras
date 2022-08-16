@@ -125,7 +125,29 @@ li {
     border: none;
  
 } 
+.saldoh2{
+    color: #14B065;
+    font-size: 20px;
+}
 
+.jorh2{
+    color: #8BBBF3;
+    font-size: 20px;
+}
+
+.entrh2{
+    color: #FFB774;
+    font-size: 20px;
+}
+
+.totalh2{
+    color: #EFBEF8;
+    font-size: 20px;
+}
+
+.p3{
+    font-size: 15px;
+}
 .in{
     margin-left: 15px;
 }

@@ -103,10 +103,50 @@
                     Registros Faltantes
                   </a>
                 </div>
+                
               </div>
             </div>
+            
           </div>
+        
+          <div class="menufinal">
+            <div class="saldo">
+              <h2 class="saldoh2 text-center">00:00</h2>
+              <p class="text-center p3" >Saldo de horas</p>
+            </div>
+          </div>
+          <hr>
+          <div class="menufinal">
+            <div class="saldo">
+              <h2 class="jorh2 text-center">08:00</h2>
+              <p class="text-center p3" >Jornada de Trabalho</p>
+            </div>
+          </div>
+          <hr>
+          <div class="menufinal">
+            <div class="saldo">
+              <h2 class="totalh2 text-center">00:00</h2>
+              <p class="text-center p3" >Previsão de Saída</p>
+            </div>
+          </div>
+          <hr>
+          <div class="menufinal">
+            <div class="saldo">
+              <h2 class="jorh2 text-center">00:00</h2>
+              <p class="text-center p3" >Total de Hoje</p>
+            </div>
+          </div>
+          <hr>
+          <div class="menufinal">
+            <div class="saldo">
+              <h2 class="entrh2 text-center">00:00</h2>
+              <p class="text-center p3" >Próxima Entrada</p>
+            </div>
+          </div>
+          <hr>
         </div>
+
+
 
         <div class="col-10">
           <section class="d-flex">
@@ -122,23 +162,27 @@
                 <p class="d-block text-center">Data</p>
                 <input class="in d-block" type="text" placeholder="12/09/2020" />
               </div>
-              <div class="form-check form-switch d-block">
-                <label class="form-check-label d-block " for="flexSwitchCheckDefault">Dia de trabalho?</label>
-                <input class="form-check-input rounded-0" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                
+           
+              <div class="form-check form-switch form-check-reverse d-flex flex-column mb-2 ps-3">
+                <label class="form-check-label ms-4" for="flexSwitchCheckReverse">Dia de trabalho?</label>
+                <div class="check d-flex justify-content-center ">
+                <input class="form-check-input rounded-0" type="checkbox" id="flexSwitchCheckReverse">
               </div>
-              <div class="form-check form-switch d-block">
-                <label class="form-check-label d-block " for="flexSwitchCheckDefault">Faltou?</label>
-                <input class="form-check-input rounded-0 " type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                
-              </div>
-              <div class="form-check form-switch d-block ">
-                <label class="form-check-label d-block " for="flexSwitchCheckDefault">Atestado?</label>
-                <input class="form-check-input rounded-0" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                
-              </div>
+            </div>
+            <div class="form-check form-switch form-check-reverse d-flex flex-column mb-2 ps-3">
+              <label class="form-check-label ms-5" for="flexSwitchCheckReverse">Faltou?</label>
+              <div class="check d-flex justify-content-center ">
+              <input class="form-check-input rounded-0" type="checkbox" id="flexSwitchCheckReverse">
+            </div>
+          </div>
+          <div class="form-check form-switch form-check-reverse d-flex flex-column mb-2 ps-3">
+            <label class="form-check-label ms-5" for="flexSwitchCheckReverse">Atestado?</label>
+            <div class="check d-flex justify-content-center ">
+            <input class="form-check-input rounded-0" type="checkbox" id="flexSwitchCheckReverse">
+          </div>
+        </div>
           
-              <div class="d-block text-center">
+              <div class="d-block text-center ps-5">
                 <p>Observações</p>
                 <textarea rows="2" cols="35"></textarea>
               </div>
