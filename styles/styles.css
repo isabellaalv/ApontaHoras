@@ -10,7 +10,7 @@ h2{
 header{
         background-color: #00007D;
         height: 70px;
-        width: 100%;
+        width: auto;
 }
 .imglogo{
     padding: 10px;
@@ -135,11 +135,32 @@ li {
     font-size: 20px;
 }
 
+
+
 .entrh2{
     color: #FFB774;
     font-size: 20px;
 }
 
+.menuicon{
+    color: #8BBBF3;
+}
+
+.icon{
+    font-size: 25px;
+}
+
+.icone{
+    font-size: 25px;
+}
+
+.iconebtn{
+    background-color: white;
+}
+
+.iconebtn:hover{
+    background-color: white !important;
+}
 .totalh2{
     color: #EFBEF8;
     font-size: 20px;
@@ -163,7 +184,23 @@ input{
     margin-right: 20px;
 }
 
+.inp{
+    width: 50px !important;
+    height: 25px !important;
+    background-color: #5EC26E;
+}
+
 .datas{
     background-color: #D9D9D9;
     width: 150px;
+}
+
+@media (max-width: 375px){
+    .menuprincipal{
+        display: none;
+    }
+
+    .conteudoprincipal{
+        
+    }
 }

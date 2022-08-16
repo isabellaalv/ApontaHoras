@@ -42,7 +42,7 @@
               <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  <i class="bi bi-list pe-3"></i>
+                  <i class="bi bi-list pe-3 menuicon"></i>
                   <p class="text-info pt-3 registro">Registros</p>
                 </button>
               </h2>
@@ -69,7 +69,7 @@
               <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  <i class="bi bi-calendar-x-fill pe-3"></i>
+                  <i class="bi bi-calendar-x-fill pe-3 menuicon"></i>
                   <p class="text-info pt-3 registro">Fechamentos</p>
                 </button>
               </h2>
@@ -92,7 +92,7 @@
               <h2 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  <i class="bi bi-search pe-3"></i>
+                  <i class="bi bi-search pe-3 menuicon"></i>
                   <p class="text-info pt-3 registro">Análise</p>
                 </button>
               </h2>
@@ -103,44 +103,44 @@
                     Registros Faltantes
                   </a>
                 </div>
-                
+
               </div>
             </div>
-            
+
           </div>
-        
+
           <div class="menufinal">
             <div class="saldo">
               <h2 class="saldoh2 text-center">00:00</h2>
-              <p class="text-center p3" >Saldo de horas</p>
+              <p class="text-center p3">Saldo de horas</p>
             </div>
           </div>
           <hr>
           <div class="menufinal">
             <div class="saldo">
               <h2 class="jorh2 text-center">08:00</h2>
-              <p class="text-center p3" >Jornada de Trabalho</p>
+              <p class="text-center p3">Jornada de Trabalho</p>
             </div>
           </div>
           <hr>
           <div class="menufinal">
             <div class="saldo">
               <h2 class="totalh2 text-center">00:00</h2>
-              <p class="text-center p3" >Previsão de Saída</p>
+              <p class="text-center p3">Previsão de Saída</p>
             </div>
           </div>
           <hr>
           <div class="menufinal">
             <div class="saldo">
               <h2 class="jorh2 text-center">00:00</h2>
-              <p class="text-center p3" >Total de Hoje</p>
+              <p class="text-center p3">Total de Hoje</p>
             </div>
           </div>
           <hr>
           <div class="menufinal">
             <div class="saldo">
               <h2 class="entrh2 text-center">00:00</h2>
-              <p class="text-center p3" >Próxima Entrada</p>
+              <p class="text-center p3">Próxima Entrada</p>
             </div>
           </div>
           <hr>
@@ -162,26 +162,26 @@
                 <p class="d-block text-center">Data</p>
                 <input class="in d-block" type="text" placeholder="12/09/2020" />
               </div>
-           
+
               <div class="form-check form-switch form-check-reverse d-flex flex-column mb-2 ps-3">
                 <label class="form-check-label ms-4" for="flexSwitchCheckReverse">Dia de trabalho?</label>
                 <div class="check d-flex justify-content-center ">
-                <input class="form-check-input rounded-0" type="checkbox" id="flexSwitchCheckReverse">
+                  <input class="form-check-input rounded-1 inp" type="checkbox" id="flexSwitchCheckReverse">
+                </div>
               </div>
-            </div>
-            <div class="form-check form-switch form-check-reverse d-flex flex-column mb-2 ps-3">
-              <label class="form-check-label ms-5" for="flexSwitchCheckReverse">Faltou?</label>
-              <div class="check d-flex justify-content-center ">
-              <input class="form-check-input rounded-0" type="checkbox" id="flexSwitchCheckReverse">
-            </div>
-          </div>
-          <div class="form-check form-switch form-check-reverse d-flex flex-column mb-2 ps-3">
-            <label class="form-check-label ms-5" for="flexSwitchCheckReverse">Atestado?</label>
-            <div class="check d-flex justify-content-center ">
-            <input class="form-check-input rounded-0" type="checkbox" id="flexSwitchCheckReverse">
-          </div>
-        </div>
-          
+              <div class="form-check form-switch form-check-reverse d-flex flex-column mb-2 ps-3">
+                <label class="form-check-label ms-5" for="flexSwitchCheckReverse">Faltou?</label>
+                <div class="check d-flex justify-content-center ">
+                  <input class="form-check-input rounded-1 inp" type="checkbox" id="flexSwitchCheckReverse">
+                </div>
+              </div>
+              <div class="form-check form-switch form-check-reverse d-flex flex-column mb-2 ps-3">
+                <label class="form-check-label ms-5" for="flexSwitchCheckReverse">Atestado?</label>
+                <div class="check d-flex justify-content-center ">
+                  <input class="form-check-input rounded-1 inp" type="checkbox" id="flexSwitchCheckReverse">
+                </div>
+              </div>
+
               <div class="d-block text-center ps-5">
                 <p>Observações</p>
                 <textarea rows="2" cols="35"></textarea>
@@ -208,9 +208,12 @@
                       <input class="in d-block" type="text" placeholder="08:35" />
 
 
-                    </div><i class="bi bi-trash mt-5 icon"></i>
+                    </div>
+                    <button class="btn btn-outline-secondary mt-3 border-0 pt-4 iconebtn" type="button"
+                      id="button-addon2"><i class="bi bi-trash mt-5 icon "></i></button>
+                    <button class="btn btn-outline-secondary mt-3 border-0 pt-4 iconebtn" type="button"
+                      id="button-addon2"><i class="bi bi-plus-circle-fill ms-5 mt-5 icone"></i></button>
 
-                    <i class="bi bi-plus-circle-fill ms-5 mt-5 icone"></i>
 
                   </div>
 
