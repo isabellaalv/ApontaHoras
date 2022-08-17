@@ -58,7 +58,10 @@ li {
     background-color: #0F6DDB;
     color: white;
     
+  }
 
+  .filtrar:hover{
+    background-color: #8BBBF3;
   }
 
   .p2{
@@ -114,10 +117,17 @@ li {
     margin: 15px;
 }
 
+.le:hover{
+    color: #0F6DDB !important;
+}
+
+
+
 .tituloPricinpal{
     margin-right: 20px;
     color: #8BBBF3;
     margin: 15px;
+    font-family: 'Roboto', sans-serif !important;
 }
  button{
     height: 30px;
@@ -144,6 +154,16 @@ li {
 
 .menuicon{
     color: #8BBBF3;
+}
+
+.checkpoint{
+    width: 5%;
+}
+
+
+
+.point{
+    font-size: 20px;
 }
 
 .icon{
@@ -188,6 +208,10 @@ input{
     width: 50px !important;
     height: 25px !important;
     background-color: #5EC26E;
+}
+
+.menuprincipal{
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .datas{
